@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Bulma</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,600&family=Oswald:wght@600&family=Roboto:wght@100;400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lora', serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        a {
+
+            text-decoration: none;
+        }
+
+        .navbar-brand {
+            width: 100px;
+        }
+
+        .bg-a {
+            background-image: url(assets/img/background.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 400px;
+            opacity: 0.5;
+        }
+
+        .title {
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <img src="assets/img/bulma-logo.png" alt="">
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item"> Tag </a>
+                    <a class="navbar-item"> Author </a>
+                    <a class="navbar-item"> Style Guide </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero is-medium">
+        <div class="container is-fluid bg-a hero-body has-text-centered">
+            <h1 class="title is-2">
+                Thoughts, stories, and ideas.
+            </h1>
+            <div id="hero-input-group" class="field has-addons has-addons-centered">
+                <div class="control">
+                    <input class="input is-medium" type="text" placeholder="Search...">
+                </div>
+                <div class="control">
+                    <a class="button is-medium is-hovered is-primary">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <br><br><br>
+        <div class="container">
+            <div class="is-flex is-justify-content-space-between">
+                <h2 class="subtitle is-bold">
+                    Featured Articles
+                </h2>
+                <div>
+                    <div class="field has-addons has-addons-centered">
+                        <div class="control">
+                            <a class="button is-small">
+                                <i class="fa fa-chevron-left fa-w-8"></i>
+                            </a>
+                        </div>
+                        <div class="control">
+                            <a class="button is-small">
+                                <i class="fa fa-chevron-right fa-w-8"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="columns">
+                <div class="column is-3">
+                    <article>
+                        <figure class="image is-5by3">
+                            <img src="assets/img/۱.jfif">
+                        </figure>
+                        <h2 class="subtitle">Creating a Group</h2>
+                        <span class="tag is-rounded">Users &amp; Groups</span>
+                    </article>
+                </div>
+                <div class="column is-3">
+                    <article>
+                        <figure class="image is-5by3">
+                            <img src="assets/img/۲.jpg">
+                        </figure>
+                        <h2 class="subtitle">Downloading/Printing Your Invoices</h2>
+                        <span class="tag is-rounded">Billing &amp; Accounts</span>
+                    </article>
+                </div>
+                <div class="column is-3">
+                    <article>
+                        <figure class="image is-5by3">
+                            <img src="assets/img/۳.webp">
+                        </figure>
+                        <h2 class="subtitle">Changing the Account Owner</h2>
+                        <span class="tag is-rounded">Billing &amp; Accounts</span>
+                    </article>
+                </div>
+                <div class="column is-3">
+                    <article>
+                        <figure class="image is-5by3">
+                            <img src="assets/img/۴.jpg">
+                        </figure>
+                        <h2 class="subtitle">Adding Internal Notes</h2>
+                        <span class="tag is-rounded">Billing &amp; Accounts</span>
+                    </article>
+                </div>
+            </div>
+            <div class="columns is-multiline">
+                <div class="column is-6">
+                    <div class="category">
+                        <h1 class=" is-5">
+                            Billing &amp; Accounts <span>5 articles</span>
+                        </h1>
+                        <hr>
+                        <ul>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                General Billing Overview
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                Changing the Account Owner
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                Downloading/Printing Your Invoices
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                Downloading/Printing Your Invoices
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                What to Do When Your Card is Declined
+                            </li>
+                        </ul>
+                        <h3 class="category-more">View All
+                            <i class="fa fa-arrow-right fa-w-14 icon-padding-left"></i>
+                        </h3>
+                    </div>
+                </div>
+                <div class="column is-6">
+                    <div class="category">
+                        <h1 class=" is-5">
+                            FAQs <span>7 articles</span>
+                        </h1>
+                        <hr>
+                        <ul>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                Why Isn't My Custom Profile Data Showing on My Tickets?
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                Why Won't My Gmail SMTP Settings Work?
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                Is There a Customer Portal My Users Can Log in To?
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                How Do I Export My Contacts, Tickets, Reports?
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                How Do I Search for a Number?
+                            </li>
+                        </ul>
+                        <h3 class="category-more">View All
+                            <i class="fa fa-arrow-right fa-w-14 icon-padding-left"></i>
+                        </h3>
+                    </div>
+                </div>
+                <div class="column is-6">
+                    <div class="category">
+                        <h1 class=" is-5">
+                            Getting Started <span>6 articles</span>
+                        </h1>
+                        <hr>
+                        <ul>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                Creating a New Conversation
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                Assigning Conversations and Changing Status
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                Adding Internal Notes
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                Configuring Your Inbox View
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                Snoozing a Conversation
+                            </li>
+                        </ul>
+                        <h3 class="category-more">View All
+                            <i class="fa fa-arrow-right fa-w-14 icon-padding-left"></i>
+                        </h3>
+                    </div>
+                </div>
+                <div class="column is-6">
+                    <div class="category">
+                        <h1 class=" is-5">
+                            Users &amp; Groups <span>3 articles</span>
+                        </h1>
+                        <hr>
+                        <ul>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                Understanding User Roles
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                Creating a Group
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right fa-w-6 fa-xs icon-padding-right"></i>
+                                Editing the Role of a User
+                            </li>
+                        </ul>
+                        <h3 class="category-more">View All
+                            <i class="fa fa-arrow-right fa-w-14 icon-padding-left"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <footer class="footer">
+            <div class="container">
+                <div class="content has-text-centered">
+                    <div class="links is-flex is-justify-content-center">
+
+                        <div class="level-item mx-4">
+                            <a href="https://www.bulma.io">Bulma</a>
+                        </div>
+                        <div class="level-item mx-3">
+                            <a href="https://bleedingedgepress.com/book_excerpts/FF9932/bulma.twochapters.pdf">Bulma
+                                Book</a>
+                        </div>
+                        <div class="level-item  mx-3">
+                            <a href="https://www.perplexity.ai">Perplexity</a>
+                        </div>
+                    </div><br>
+                    <p>
+                        <a href="https://bulma.io">
+                            <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="128"
+                                height="24">
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
